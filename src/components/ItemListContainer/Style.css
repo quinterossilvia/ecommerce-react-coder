@@ -3,11 +3,27 @@
     color: black;
     font-size: 3em;
     font-style: inherit;
-    /* padding: 4em;
-    margin: 1em; */
     font: bold;
     text-align: center;
     padding: .5em;
     background-color: lightgray;
+
+}
+.fila{
+
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.spinner{
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.cartw{
+    width: 50px;
+    height: 50px;
 
 }

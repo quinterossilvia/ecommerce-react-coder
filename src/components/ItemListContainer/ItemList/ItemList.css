@@ -1,0 +1,16 @@
+.fila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+h3{
+    text-align: center;
+    
+    }
+    
+.item{
+    margin: 5px;
+}
