@@ -6,7 +6,7 @@ import CartWidget from "../CartWidget/CartWidget"
 const NavBar = () => {
   return (
     <nav className=" d-flex justify-content-around navbar navbar-expand-lg navbar-light bg-light">
-        {<h3>CODE BAR</h3>} 
+        {/* <h3>CODE BAR</h3> */} <Link to= "/" >CODE BAR</Link>
 
     <div >
       <Link  className="btn btn-secondary m-2" to= '/productos/SIN ALCOHOL'>Bebidas Sin Alcohol</Link>
