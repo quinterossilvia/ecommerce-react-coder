@@ -33,10 +33,10 @@ const ItemListContainer = ({greeting}) => {
     }, [categoryId])
 
   return (
-    <div className='container'>
+    <div className='container '>
       {
         loading 
-        ?<Spinner animation="grow" className='spinner' />
+        ?<Spinner animation="grow" className= 'spin' />
         
         :<ItemList  productos={items} /> 
       

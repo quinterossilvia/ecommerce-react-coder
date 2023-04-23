@@ -1,4 +1,4 @@
-.gtg {
+/* .gtg {
 
     color: black;
     font-size: 3em;
@@ -8,7 +8,7 @@
     padding: .5em;
     background-color: lightgray;
 
-}
+} */
 .fila{
 
     display: flex;
@@ -16,11 +16,14 @@
    
 }
 .spinner{
-    display: block;
-    flex-direction: row;
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
     justify-content: center;
     align-items: center;
 
+  
 }
 .cartw{
     width: 50px;

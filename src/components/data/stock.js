@@ -1,8 +1,7 @@
-
 export const stock = [
   {
     id : 0,
-    imagen : "https://picsum.photos/200/300?grayscale",
+    imagen : "/GIN_PINK.png",
     descripcion : "GIN PINK",
     trago : "ALCOHOL",
     cantidad : 20,
@@ -10,7 +9,7 @@ export const stock = [
 },
 {
     id : 1,
-    imagen: "https://picsum.photos/200/300?grayscale",
+    imagen: "/BRUMBLE.PNG",
     descripcion : "BRUMBLE",
     trago : "ALCOHOL",
     cantidad : 20,
@@ -18,7 +17,7 @@ export const stock = [
 },
 {
     id : 2,
-    imagen : "https://picsum.photos/200/300?grayscale",
+    imagen : "/DAIKIRI.png",
     descripcion :  "DAIKIRI",
     trago : "ALCOHOL",
     cantidad : 120,
@@ -27,7 +26,7 @@ export const stock = [
 },
 {
     id : 3,
-    imagen : "https://picsum.photos/200/300?grayscale",
+    imagen : "/MOGITO.png",
     descripcion : "MOGITO",
     trago: "ALCOHOL",
     cantidad : 120,
@@ -35,7 +34,7 @@ export const stock = [
 },
 {
     id : 4,
-    imagen : "https://picsum.photos/200/300?grayscale",
+    imagen : "/ESPRESSO MARTINI.PNG",
     descripcion : "ESPRESSO MARTINI",
     trago: "ALCOHOL",
     cantidad : 150,
@@ -43,7 +42,7 @@ export const stock = [
 },
 {
     id: 5,
-    imagen : "https://picsum.photos/200/300/?blur",
+    imagen : "/RED BULL.png",
     descripcion : "RED BULL",
     trago : "SIN ALCOHOL",
     cantidad : 150,
@@ -51,7 +50,7 @@ export const stock = [
 },
 {
     id : 6,
-    imagen : "https://picsum.photos/200/300/?blur",
+    imagen : "/COCA_COLA.png",
     descripcion : "COCA COLA",
     trago : "SIN ALCOHOL",
     cantidad : 150,
@@ -59,7 +58,7 @@ export const stock = [
 },
 {
     id : 7,
-    imagen : "https://picsum.photos/200/300/?blur",
+    imagen : "/LEVITE.png",
     descripcion : "LEVITE",
     trago: "SIN ALCOHOL",
     cantidad : 150,
@@ -67,7 +66,7 @@ export const stock = [
 },
 {
     id : 8,
-    imagen : "https://picsum.photos/200/300/?blur",
+    imagen : "/GINGER_BERRIES.png",
     descripcion : "GINGER BERRIES",
     trago : "SIN ALCOHOL",
     
@@ -76,7 +75,7 @@ export const stock = [
 },
 {
     id : 9,
-    imagen : "https://picsum.photos/200/300/?blur",
+    imagen : "/JUGO_NATURAL.png",
     descripcion : "JUGO NATURAL",
     trago : "SIN ALCOHOL",
     cantidad : 150,
