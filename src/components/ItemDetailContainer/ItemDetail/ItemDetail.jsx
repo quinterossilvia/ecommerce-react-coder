@@ -8,7 +8,7 @@ export const ItemDetail = ({ id, imagen, descripcion, trago, precio }) => {
 
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={imagen} />
-      <Card.Body>
+      <Card.Body className='text-center'>
         <Card.Title>{descripcion}</Card.Title>
         <Card.Text>{trago}</Card.Text>
         <Card.Title>${precio}</Card.Title>

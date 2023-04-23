@@ -9,7 +9,7 @@ export const Item = ({ id, imagen, descripcion, trago, precio }) => {
     <div className=' item'>
     <Card style={{ width: '15rem' }}>
       <Card.Img variant="top" src={imagen} />
-      <Card.Body>
+      <Card.Body className='text-center'>
         <Card.Title>{descripcion}</Card.Title>
         <Card.Text>{trago}</Card.Text>
         <Card.Title>${precio}</Card.Title>

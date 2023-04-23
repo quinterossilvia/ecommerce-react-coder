@@ -17,7 +17,7 @@ const ItemCount = () => {
 
 
   return (
-    <div className='d-flex '>
+    <div className='d-flex justify-content-center'>
       
       <button className="btn btn-primary m-2" onClick={resta} >–</button>
       <h2 > {counter} </h2>
