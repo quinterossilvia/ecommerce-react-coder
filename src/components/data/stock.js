@@ -20,7 +20,7 @@ export const stock = [
     imagen : "/DAIKIRI.png",
     descripcion :  "DAIKIRI",
     trago : "ALCOHOL",
-    cantidad : 120,
+    cantidad : 20,
     precio : 1100
 
 },
@@ -29,7 +29,7 @@ export const stock = [
     imagen : "/MOGITO.png",
     descripcion : "MOGITO",
     trago: "ALCOHOL",
-    cantidad : 120,
+    cantidad : 20,
     precio: 990
 },
 {
@@ -37,7 +37,7 @@ export const stock = [
     imagen : "/ESPRESSO MARTINI.PNG",
     descripcion : "ESPRESSO MARTINI",
     trago: "ALCOHOL",
-    cantidad : 150,
+    cantidad : 15,
     precio: 1500
 },
 {
@@ -45,7 +45,7 @@ export const stock = [
     imagen : "/RED BULL.png",
     descripcion : "RED BULL",
     trago : "SIN ALCOHOL",
-    cantidad : 150,
+    cantidad : 15,
     precio : 950
 },
 {
@@ -53,7 +53,7 @@ export const stock = [
     imagen : "/COCA_COLA.png",
     descripcion : "COCA COLA",
     trago : "SIN ALCOHOL",
-    cantidad : 150,
+    cantidad : 15,
     precio: 500
 },
 {
@@ -61,7 +61,7 @@ export const stock = [
     imagen : "/LEVITE.png",
     descripcion : "LEVITE",
     trago: "SIN ALCOHOL",
-    cantidad : 150,
+    cantidad : 15,
     precio: 490
 },
 {
@@ -70,7 +70,7 @@ export const stock = [
     descripcion : "GINGER BERRIES",
     trago : "SIN ALCOHOL",
     
-    cantidad : 150,
+    cantidad : 15,
     precio : 1100
 },
 {
@@ -78,7 +78,7 @@ export const stock = [
     imagen : "/JUGO_NATURAL.png",
     descripcion : "JUGO NATURAL",
     trago : "SIN ALCOHOL",
-    cantidad : 150,
+    cantidad : 15,
     precio : 800
 }
 

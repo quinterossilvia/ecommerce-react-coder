@@ -27,11 +27,13 @@ const ItemListContainer = ({greeting}) => {
           }else {
             setItems(res)
           }
+          
         })
         .catch ((error) => console.log (error))
         .finally (() => {setLoading (false)})
-    }, [categoryId])
-
+    }, [categoryId]
+    
+    )
   return (
     <div className='container '>
       {
