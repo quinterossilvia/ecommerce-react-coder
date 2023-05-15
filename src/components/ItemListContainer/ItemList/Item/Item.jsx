@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 
-export const Item = ({ id, imagen, descripcion, trago, precio }) => {
+export const Item = ({ id,  imagen, descripcion, trago, precio }) => {
   return (
     
     <div className=' item'>

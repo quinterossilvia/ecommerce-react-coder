@@ -38,9 +38,11 @@ export const CartScreen = () => {
 
           <strong>PRECIO TOTAL: $ {precioTotal()}</strong>
           <hr />
-          <button className="btn btn-bg-light" onClick={vaciarCarrito}>
+          <button className="btn btn-secondary m-4" onClick={vaciarCarrito}>
             VACIAR CARRITO
           </button>
+          <Link className="btn btn-secondary m-4" to="/checkout" >Terminar Compra</Link>
+          
         </>
       )}
     </div>

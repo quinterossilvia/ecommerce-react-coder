@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Card, Button } from "react-bootstrap";
 import ItemCount from "./ItemCount";
 import "../ItemDetail/itemDetail.css";
@@ -52,6 +52,8 @@ const {addToCart} = useContext (CartContext)
       <Button variant="bg-light" onClick={volverHaciaAtras} className="m-2">
         Volver
       </Button>
+      <Link to= '/cart'className="btn btn bg-light"> Ir al Carrito
+      </Link>
     </Card>
   );
 };

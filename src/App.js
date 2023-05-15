@@ -8,7 +8,8 @@ import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailCont
 
 import ItemCount from "./components/ItemDetailContainer/ItemDetail/ItemCount";
 import {CartScreen} from "./components/CartScreen/CartScreen"
-
+import { UiProvider } from "./components/context/UiContext";
+import Checkout from "./components/Checkout/Checkout"
 import {
   BrowserRouter as Router,
   Routes,
@@ -17,9 +18,12 @@ import {
 } from "react-router-dom";
 import { CartProvider } from "./components/context/CartContext";
 
+
+
 function App() {
 
    return (
+    <UiProvider>
     <CartProvider>
       <div className="App">
         <Router>
@@ -29,12 +33,14 @@ function App() {
             <Route path="/productos/:categoryId" element={<ItemListContainer />}  />
             <Route path="/detail/:itemId" element={<ItemDetailContainer />} />
             <Route path="/counter" element={<ItemCount />} />
+            <Route path="/checkout" element={<Checkout />} />
             <Route path="/cart" element={<CartScreen/>} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </Router>
       </div>
     </CartProvider>
+    </UiProvider>
   );
 }
 
