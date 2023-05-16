@@ -5,7 +5,7 @@ import ItemCount from "./ItemCount";
 import "../ItemDetail/itemDetail.css";
 import { useState } from "react";
 import { CartContext } from "../../context/CartContext";
-
+import Swal from "sweetalert2";
 
 export const ItemDetail = ({
   id,
@@ -37,9 +37,17 @@ const {addToCart} = useContext (CartContext)
     }
     // console.log (newItem)
     addToCart (newItem)
+    
+    Swal.fire({
+      icon: "success",
+      title: "Producto agregado al carrito",
+      showConfirmButton: false,
+      timer: 1000,
+    });
   }
 
   return (
+    <div className="item">
     <Card style={{ width: "250px" }}>
       <Card.Img variant="top" src={imagen} className="imag" />
       <Card.Body className="text-center ">
@@ -55,5 +63,6 @@ const {addToCart} = useContext (CartContext)
       <Link to= '/cart'className="btn btn bg-light"> Ir al Carrito
       </Link>
     </Card>
+    </div>
   );
 };

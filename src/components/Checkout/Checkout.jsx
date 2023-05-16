@@ -17,6 +17,7 @@ const Checkout = () => {
   const [apellido, setApellido] = useState("");
 
   const [telefono, setTelefono] = useState("");
+  
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -69,11 +70,11 @@ const Checkout = () => {
   };
 
   return (
-    <div>
-      <h3>TERMINAR COMPRA</h3>
+    <div className="bg-light m-5">
+      <h3 >TERMINAR COMPRA</h3>
       <hr />
 
-      <form onSubmit={handleSubmit} className="container mt-3">
+      <form onSubmit={handleSubmit} className="container mt-3 justify-content-center ">
         <div className="form-group">
           <label htmlFor="email">Email</label>
           <input
@@ -111,12 +112,14 @@ const Checkout = () => {
             value={telefono}
           />
         </div>
-        <button type="submit" className="btn btn-secondary">
+        <div className="align-item-center">
+        <button type="submit" className="btn btn-secondary m-3">
           Finalizar
         </button>
-        <Link to="/cart" className="btn btn-bg-light">
+        <Link to="/cart" className="btn btn-secondary m-3">
           Volver al Carrito
         </Link>
+        </div>
       </form>
     </div>
   );

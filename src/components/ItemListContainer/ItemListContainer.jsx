@@ -66,7 +66,7 @@ const ItemListContainer = () => {
   }, [categoryId]);
 
   return (
-    <div className="container ">
+    <div className=" ">
       {loading ? (
         <Spinner animation="grow" className="spin" />
       ) : (

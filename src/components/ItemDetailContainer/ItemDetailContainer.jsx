@@ -4,6 +4,8 @@ import { Spinner } from 'react-bootstrap'
 import {ItemDetail} from'../ItemDetailContainer/ItemDetail/ItemDetail'
 import { useParams } from 'react-router-dom'
 import { getFirestore } from '../../firebase/config'
+import "../ItemDetailContainer/ItemDetailContainer.css"
+
 const ItemDetailContainer = () => {
     const [item, setItem] =useState (null)
     const [loading,  setLoading] = useState (false)
@@ -42,7 +44,7 @@ const ItemDetailContainer = () => {
   
 
   return (
-    <section>{
+    <section className='item'>{
         loading
         ?<Spinner />
         :<ItemDetail {...item} />
